@@ -1,0 +1,277 @@
+#our {
+  color: white;
+}
+
+.container-watch {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 73px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.three {
+ width: 354px;
+height: 239px;
+flex-shrink: 0;
+border-radius: 22px;
+background: #F6F6F6;
+text-align: center;
+}
+
+.three h1 {
+  color: black;
+}
+
+.three p {
+  color: #8B8E99;
+}
+
+.mi {
+  text-align: center;
+  padding-top: 105px;
+}
+
+.mi p {
+color: blue;
+height: 20px;
+flex-shrink: 0;
+color: #3858D6;
+font-size: 16px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.mi h1 {
+height: 41px;
+flex-direction: column;
+flex-shrink: 0;
+text-align: center;
+font-size: 36px;
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.break {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 150px;
+  padding-top: 73px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+
+.bit {
+  width: 354px;
+ height: 300px;
+ flex-shrink: 0;
+ border-radius: 22px;
+ background: #F6F6F6;
+ text-align: center;
+ }
+ 
+ .bit h1 {
+   color: black;
+   padding-top: 30px;
+ }
+ 
+ .bit p {
+   color: #8B8E99;
+   /* display: flex; */
+   flex-direction: row;
+   /* justify-content: space-between; */
+ }
+
+.btn {
+  align-items: center;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.btn button {
+  padding: 15px 45px;
+ background-color: #3858D6;
+ border: 5px solid #3858D6;
+ border-radius: 6px;
+ color: white;
+ font-size: 20px;
+}
+
+#hamza {
+  padding-bottom: 90px;
+}
+
+.container-blood {
+  padding-top: 73px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.are {
+text-align: center;
+/* align-items: center; */
+  padding-top: 105px;
+}
+
+.are p {
+color: #3858D6;
+text-align: center;
+font-size: 16px;
+}
+
+.are h1 {
+color: #1E1D1D;
+text-align: center;
+font-size: 36px;
+}
+
+
+
+.item {
+  background: #F6F6F6;
+  width: 524px;
+height: 239px;
+flex-shrink: 0;
+border-radius: 22px;
+background: #F6F6F6;
+flex-direction: row;
+}
+
+
+
+.item {
+  padding: 30px 42.69px 30px 34.32px;
+  border-radius: 22px;
+  background: #F6F6F6;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  }
+
+.owl-carousel .owl-dots .owl-dot span {
+  width: 30px;
+  transition: all 0.2s ease;
+}
+
+.owl-carousel .owl-dots .owl-dot.active span {
+  width: 50px;
+  background: #3858D6;
+}
+
+.owl-carousel .owl-dots .owl-dot:hover span {
+  background: #3858D6;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  top: 90px;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 30px;
+  background-color: #3858D6;
+  color: white;
+}
+
+
+.owl-carousel .owl-nav button.owl-prev {
+  left: -25px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  right: -25px;
+}
+
+.container-to {
+  padding-top: 73px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.email {
+  width: 1100px;
+height: 377px;
+flex-shrink: 0;
+border-radius: 22px;
+background: #F6F6F6;
+}
+
+.gig {
+  padding-top: 30px;
+}
+
+.gig img {
+width: 1072px;
+height: 301px;
+flex-shrink: 0;
+border-radius: 15px;
+/* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+padding-left: 600px;
+padding-bottom: 100px;
+}
+
+.phone h1 {
+text-align: center;
+width: 547px;
+height: 40px;
+flex-shrink: 0;
+color: #1E1D1D;
+font-size: 36px;
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.gig p {
+  text-align: center;
+  align-items: center;
+width: 537px;
+height: 29px;
+flex-direction: column;
+flex-shrink: 0;
+color: #8B8E99;
+font-size: 16px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+} 
+
+.phone {
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 55px;
+  position: relative;
+}
+  
+.gig input {
+  margin: 0 auto;
+  width: 400px;
+  height: 50px;
+  border: 15 solid blue;
+  border-radius: 4px;
+  position: relative;
+}
+
+.gig button {
+  margin: 0 auto;
+  width: 90px;
+  height: 45px;
+  border: 1px solid#57B8FF ;
+  background: #57B8FF;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+
+
+
+ 

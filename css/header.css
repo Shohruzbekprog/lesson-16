@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  background-color: black;
+}
+
+.container-bro {
+  display: flex;
+  justify-content: space-between;
+  max-width:calc(1440 - 200 - 200 - 40) ;
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.home ul {
+  margin: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  color: white;
+}
+
+.home ul li a {
+color: #8B8E99;
+font-size: 16px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.home ul li a:hover {
+  cursor: pointer;
+  color: white;;
+  transition: 0.5px;
+}
+
+.wtch a {
+color: white;
+}
+
+.imge {
+  margin: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.imge:hover {
+color: white;
+}
+
+.memu-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 200px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.word h1 {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #FFF;
+  font-size: 67px;
+  font-family: Orbitron;
+  line-height: 86px;
+  text-transform: capitalize;
+  padding-bottom: 45px;
+}
+
+.word p {
+  display: flex;
+width: 400px;
+flex-direction: column;
+flex-shrink: 0;
+color: white;
+color: #999;
+font-size: 18px;
+font-family: Orbitron;
+line-height: 28px;
+padding-bottom: 53px;
+}
+
+
+
+.sub {
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 55px;
+  position: relative;
+}
+  
+.word input {
+  margin: 0 auto;
+  width: 400px;
+  height: 50px;
+  border: 15 solid blue;
+  border-radius: 4px;
+  position: relative;
+}
+
+.word button {
+  margin: 0 auto;
+  width: 90px;
+  height: 45px;
+  border: 1px solid#57B8FF ;
+  background: #57B8FF;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
